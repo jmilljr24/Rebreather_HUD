@@ -4,12 +4,15 @@ Teensy 3.2
 
 O2 sensor
 Blue > GND
-White > 16
+White > A0
+White2 > A1
 
 Piezo Button
+Voltage divider - Split 3.3v power in half
 Black > GND
-Red > 15
+Button 2 > A8
 1Mohm between red and black
+Button 1 > A9 and 12 for wakup
 
 Compass LSM303
 Vin > 3.3v
@@ -21,7 +24,7 @@ MicroView 64x48
 GND > GND
 VDD > 3.3v
 SDI > 11
-SCK > 14
+SCK > 13
 D/C > 8
 RST > 9
 CS > 10
