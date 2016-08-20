@@ -8,7 +8,7 @@
 /* Assign a unique ID to compass sensor at the same time */
 Adafruit_LSM303_Mag_Unified mag = Adafruit_LSM303_Mag_Unified(12345);
 
-U8GLIB_SSD1306_64X48 u8g(14, 11, 10, 8, 9);	// SW SPI Com: SCK = 13, MOSI = 11, CS = 10, D/C = 8, RST 9
+U8GLIB_SSD1306_64X48 u8g(13, 11, 10, 9, 8);	// SW SPI Com: SCK = 13, MOSI = 11, CS = 10, D/C = 9, RST 8
 
 float millivolts1;                  // converted millivolts output for #1 input (A2)
 
